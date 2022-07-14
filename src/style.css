@@ -1,0 +1,79 @@
+:root  {
+  --branding-color:#033811;
+  --secondary-color: #b2ced2;
+  --heading-font-family: "Playfair Display", serif;
+  --default-font-family: "Poppins", sans-serif;
+ text-align: center; 
+ 
+}
+body  {
+  font-family: var(--default-font-family);
+}
+h1, h2, h3, h4, h5, h6  {
+  color: black;
+  font-family: var(--heading-font-family);
+  font-weight: bold;
+}
+
+p  {
+  
+  font-weight: bold;
+}
+h1  {
+  font-size: 56px;
+}
+h2  {
+  font-weight: bold;
+}
+.about-section  {
+  padding: 160px 20px;
+}
+.about.section h1  {
+  font-size: 42px;
+  line-height: 80px;
+}
+.about.section h2 {
+  font-size: 18px;
+  font-family: var(--default-font-family);
+}
+.about-section-content  {
+  margin: 30px;
+}
+.btn-branding  {
+  background-color: #033811; 
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: bold;
+  color: white;
+  border: 2px solid black;
+  border-radius: 4px;
+  font-family: "Poppins";
+  padding: 12px 20px; 
+}
+@media (max-width: 900px)  {
+  h1  {
+    font-size: 44px;
+    line-height: 2;
+  }
+  h2  {
+    font-size: 44px;
+    font-weight: bold;
+  }
+  
+}
+.hero  {
+ background-color: var(--secondary-color);
+ padding: 80px 20;
+}
+.about-section  {
+  text-align: center;
+  padding: 0;
+}
+
+}
+.hero h2  {
+  font-family: var(--heading-font-family);
+  font-weight: normal;
+  line-height: 2;
+  font-size:  24px;
+}
