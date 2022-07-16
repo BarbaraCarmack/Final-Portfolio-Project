@@ -37,7 +37,7 @@ h2  {
   font-family: var(--default-font-family);
 }
 .content h3  {
-  font-size: 24px;
+ font-size: 24px;
  text-align: center; 
  font-family: var(--default-font-family);
  line-height: 1.5;
@@ -45,6 +45,8 @@ h2  {
 }
 .content p{
   font-size: 14px;
+  margin: 0;
+  padding: 0;
 }
 .content  {
   margin: 30px;
@@ -75,14 +77,40 @@ h2  {
  background-color: var(--secondary-color);
  padding: 80px 20;
 }
-.content h1  {
-  text-align: center;
-  padding: 0;
-}
+
 .hero h2  {
   font-family: var(--heading-font-family);
   font-weight: normal;
   line-height: 2;
   font-size:  24px;
 }
- 
+.content h1  {
+  text-align: center;
+  padding: 0;
+}
+.content-container  {
+  padding: 0px;
+  text-align: center;
+}
+.content h1  {
+  font-size: 64px;
+  line-height: 80px;
+}
+.content h2  {
+  font-size: 18px;
+  font-family: var(--default-font-family);
+}
+.content h3  {
+  font-size: 24px;
+  line-height: 1.5;
+  margin: 20px 0 0;
+  font-family: var(--default-font-family); 
+}
+.content  p  {
+  font-size: 14px;
+  margin: 0;
+}
+.content  {
+  padding: 0;
+  text-align: center;
+}
