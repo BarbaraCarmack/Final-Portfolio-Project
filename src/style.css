@@ -53,7 +53,8 @@ h2  {
 .content  {
   margin: 30px;
 }
-btn-branding  { 
+.btn-branding  { 
+  background-color: var(--branding-color); 
   font-size: 18px;
   line-height: 27px;
   font-weight: bold;
@@ -62,7 +63,7 @@ btn-branding  {
   border-radius: 4px;
   font-family: "Poppins";
   padding: 12px 20px; 
-  background-color: var(--branding-color); 
+  
 } 
 
 nav  {
